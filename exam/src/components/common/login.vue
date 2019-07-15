@@ -34,7 +34,7 @@
     </el-row>
     <el-row class="footer">
       <el-col>
-        <p class="msg2">版权所有 ©2019 <!--重庆文理学院计科2班余晓江--> 保留所有权利 渝ICP备19001371号</p>
+        <p class="msg2">版权所有 ©2019 <!--黑龙江科技大学计科16-2班赵玉龙--> 保留所有权利 XXXXXXXX号</p>
       </el-col>
     </el-row>
   </div>

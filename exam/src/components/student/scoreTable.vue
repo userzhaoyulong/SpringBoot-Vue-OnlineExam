@@ -44,7 +44,7 @@ export default {
   },
   created() {
     this.getScore()
-    this.loading = true //数据加载则遮罩表格
+    this.loading = false //数据加载则遮罩表格
   },
   methods: {
     getScore() {

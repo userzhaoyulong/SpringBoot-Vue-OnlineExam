@@ -8,6 +8,11 @@
       <el-table-column prop="type" label="题目类型" width="200"></el-table-column>
       <el-table-column prop="score" label="试题分数" width="150"></el-table-column>
       <el-table-column prop="level" label="难度等级" width="133"></el-table-column>
+      <el-table-column fixed="right" label="操作" width="150">
+        <template slot-scope="scope">
+          <el-button @click="update(scope.row.paperId,scope.row.source)" type="primary" size="small">修改题目</el-button>
+        </template>
+      </el-table-column>
     </el-table>
     <el-pagination
       @size-change="handleSizeChange"
