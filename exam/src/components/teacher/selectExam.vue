@@ -52,9 +52,9 @@
             <el-input v-model="form.grade"></el-input>
           </el-form-item>
           <el-form-item label="考试日期">
-            <el-col :span="11">
+            <!--<el-col :span="11">
               <el-date-picker type="date" placeholder="选择日期" v-model="form.examDate" style="width: 100%;"></el-date-picker>
-            </el-col>
+            </el-col>--><el-input v-model="form.examDate"></el-input>
           </el-form-item>
           <el-form-item label="持续时间">
             <el-input v-model="form.totalTime"></el-input>
