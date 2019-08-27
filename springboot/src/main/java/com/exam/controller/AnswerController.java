@@ -23,6 +23,5 @@ public class AnswerController {
        Page<AnswerVO> answerVOPage = new Page<>(page,size);
        IPage<AnswerVO> answerVOIPage = answerService.findAll(answerVOPage);
        return ApiResultHandler.buildApiResult(200,"查询所有题库",answerVOIPage);
-
     }
 }
